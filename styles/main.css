@@ -9,18 +9,112 @@ Gris de fondo: #f1f1f1
 */
 
 
+:root {
+    --brand-color: #099d8d;
+    --brand-font:'Open Sans', sans-serif;
+    --brand-font2: 'Rubik', sans-serif;
+    
+}
 
 body {
-    background-color: #fff;
+    background-color: white;
+}
+
+.container-margin{
+    margin: 0 15px;
+}
+
+.header {
+    position: relative;
+    bottom: 20px; /*para quitarle el espacio blanco que salía por encima*/
+    z-index: 2; /*esto es para que la imagen esté por detrás de nav y nombre del euipo*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .name-team {
-    background-color: #099D8D;
-    width: 320px;
-    height: 60px;
-    opacity: 0.95;
-    color: #fff;
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    width: 100%;
+    height: 70px;
+    /*background-color: var(--brand-color);*/
+    background-color: hsla(174, 83%, 46%, 0.9);
+}
+
+.name{
+    font-family: var(--brand-font2);
+    color: white;
     text-transform: uppercase;
+    margin: 15px 80px;
+    padding: 20px;
+    display: block;
+}
+
+.menu-top {
+    background-color: rgba(20,217, 196, 0.6);
+    width: 100vw;
+    height: 40px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.list {
+    list-style-type: none;
+    display: inline-block;
+    font-family: var(--brand-font2);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*flexbox*/
+.equipo{
+    margin: 8px 15px 7px 16px;
+}
+
+.who-we-are{
+    margin: 8px 15px 7px 15px;
+}
+
+.contacto{
+    margin: 8px 16px 7px 15px;
+}
+
+.link, .link:hover, .link:focus, .link:active {
+    text-decoration: none;
+    color: white;
+}
+
+/*.link:visited y ponerle el color que queramos si se decide*/
+
+.foto {
+    width: 100%;
+    height: 421px;
+    background-image: url(../proyecto.jpg);
+    background-size: cover;
+    position: relative;
+    bottom: 150px;
+    z-index: 1;
+}
+
+.lema {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    /*google fonts open sans*/
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    line-height: 1.2;
+    /*flexbox*/
+    position: relative;
+    bottom: 170px;
+    z-index: 2;
 }
