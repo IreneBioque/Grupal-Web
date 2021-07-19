@@ -13,7 +13,10 @@ Gris de fondo: #f1f1f1
     --brand-color: #099d8d;
     --brand-font:'Open Sans', sans-serif;
     --brand-font2: 'Rubik', sans-serif;
-    
+    /* parte roof Jenny*/
+    --Container-color: white;
+    --Titulo-color: #099d8d;
+    --Parrafo-color: #54585a;
 }
 
 body {
@@ -117,4 +120,42 @@ body {
     position: relative;
     bottom: 170px;
     z-index: 2;
+}
+
+/* Css Jenny*/
+.caja {
+    width: 768px;
+    height:303px;
+    margin:0 0 7px;
+    padding: 45px 45px 30px;
+    background-color: var(--Container-color);
+}
+.equipo {
+    width: 88.7px;
+    height: 45px;
+    margin: 0 294.3px 15px 295px;
+    font-family: var(--brand-font2);
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--Titulo-color);
+}
+.box {
+    width: 678px;
+    height:168px;
+    margin: 15px 0 0;
+    opacity:0.67;
+    font-family: var(--brand-font);
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--Parrafo-color);
 }
