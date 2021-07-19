@@ -115,9 +115,8 @@ body {
   margin-right: 15px;
   padding: 15px;
   line-height: 1.2;
-  /*flexbox*/
   position: relative;
-  bottom: 170px;
+  top: 390px;
   z-index: 2;
 }
 
