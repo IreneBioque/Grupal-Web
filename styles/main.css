@@ -157,7 +157,7 @@ body {
 .caracter {
   box-sizing: border-box;
   background-color: rgba(184, 184, 185, 0.2);
-  width: 320px;
+  width: 100%;
   line-height: 1.5;
   text-align: center;
   padding: 0 15px;
@@ -190,7 +190,6 @@ body {
   /* padding: 30px 0 60px 0; */
 }
 
-
 .section-who-we-are h2 {
   color: var(--brand-color);
   font-family: var(--brand-font2);
@@ -201,10 +200,13 @@ body {
   text-align: center;
 }
 
-.danielaD, .danielaS, .ireneB, .jennyB, .moniL {
+.danielaD,
+.danielaS,
+.ireneB,
+.jennyB,
+.moniL {
   margin-bottom: 60px;
 }
-
 
 .photo-person {
   display: block;
@@ -213,7 +215,6 @@ body {
   width: 190px;
   border-radius: 10px;
   border: solid 5px rgba(0, 0, 0, 0.08);
-  
 }
 
 .person {
@@ -223,7 +224,6 @@ body {
   line-height: 45px;
   text-align: center;
   margin-top: 15px;
-
 }
 
 .description {
@@ -240,8 +240,6 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-  
-
 }
 .media {
   color: var(--brand-color);
