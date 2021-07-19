@@ -177,7 +177,7 @@ body {
 }
 
 .h3 {
-  color: var(--font-color);
+  color: var(--brand-color);
   font-family: var(--brand-font2);
   font-size: 22px;
   margin-top: 30px;
