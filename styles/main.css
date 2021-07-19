@@ -164,3 +164,32 @@ body {
   text-align: center;
   color: var(--Parrafo-color);
 }
+
+/* añadido Daniela Salazar */
+.container-margin {
+  box-sizing: border-box;
+  background-color: rgba(184, 184, 185, 0.2);
+  width: 320px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 15px;
+  padding-bottom: 30px;
+}
+
+.h3 {
+  color: var(--font-color);
+  font-family: var(--brand-font2);
+  font-size: 22px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.rectangulo-pequeño {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  transform: translate(0, -50%) rotate(45deg);
+}
