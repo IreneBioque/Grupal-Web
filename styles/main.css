@@ -144,6 +144,9 @@ body {
     text-align: center;
     color: var(--Titulo-color);
 }
+.h2-equipo{
+    text-transform: uppercase;
+}
 .box {
     width: 678px;
     height:168px;
