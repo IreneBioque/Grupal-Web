@@ -24,7 +24,6 @@ body {
 }
 
 .header {
-  position: relative;
   z-index: 2; /*esto es para que la imagen esté por detrás de nav y nombre del euipo*/
   display: flex;
   flex-direction: row;
@@ -286,4 +285,10 @@ body {
   height: 45px;
   display: block;
   margin: auto;
+}
+
+
+/* TABLET 768px*/
+@media all and (min-width: 768px) {
+
 }
