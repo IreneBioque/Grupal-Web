@@ -52,7 +52,7 @@ body {
 
 .menu-top {
   background-color: rgba(20, 217, 196, 0.6);
-  width: 100vw;
+  width: 100%;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -290,5 +290,29 @@ body {
 
 /* TABLET 768px*/
 @media all and (min-width: 768px) {
+  /* cabecera */
+  .header {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .head-tablet {
+    width: 100%;
+    height: 60px;
+    background-color: hsla(174, 83%, 46%, 0.9);
+  }
+
+  /* lema */
+  .lema {
+    width: 336px;
+    height: 80px;
+    margin-left: 46px;
+    padding: 15px 80px 15px 30px;
+    top: 340px;
+    color: white;    
+    background-color: rgba(0,0, 0, 0.4);
+   }
+  
+
+
 
 }
