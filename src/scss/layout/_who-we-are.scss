@@ -1,61 +1,61 @@
 .section-who-we-are {
-    margin: 30px 15px 45px 15px;
-  }
-  
-  .section-who-we-are h2 {
-    color: var($brand-color);
-    font-family: var($brand-font2);
-    font-size: 24px;
-    line-height: 45px;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .team-member {
-    margin-bottom: 60px;
-  }
-  
-  .photo-person {
-    display: block;
-    margin: 30px auto 0 auto;
-    height: 190px;
-    width: 190px;
-    border-radius: 10px;
-    border: solid 5px rgba(0, 0, 0, 0.08);
-  }
-  
-  .person {
-    color: black;
-    font-size: 20px;
-    font-family: var($brand-font);
-    line-height: 45px;
-    text-align: center;
-    margin-top: 15px;
-  }
-  
-  .description {
-    color: #54585a;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: var($brand-font);
-    text-align: center;
-    margin: 0px 10px 15px 10px;
-  }
-  
-  .social-media {
-    width: 124px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .media {
-    color: var($brand-color);
-    font-size: 16px;
-    line-height: 30px;
-  }
+  margin: 30px 15px 45px 15px;
+}
 
-  @media all and (min-width: 768px) {
-      /* QUIENES SOMOS */
+.section-who-we-are h2 {
+  color: $brand-color;
+  font-family: $brand-font2;
+  font-size: 24px;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.team-member {
+  margin-bottom: 60px;
+}
+
+.photo-person {
+  display: block;
+  margin: 30px auto 0 auto;
+  height: 190px;
+  width: 190px;
+  border-radius: 10px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+}
+
+.person {
+  color: black;
+  font-size: 20px;
+  font-family: $brand-font;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.description {
+  color: #54585a;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: $brand-font;
+  text-align: center;
+  margin: 0px 10px 15px 10px;
+}
+
+.social-media {
+  width: 124px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.media {
+  color: $brand-color;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media all and (min-width: 768px) {
   .team-member {
     display: flex;
     flex-direction: row;
@@ -69,29 +69,36 @@
     flex-wrap: wrap;
     margin: 15px;
   }
+
   .person {
     text-align: left;
   }
+
   .description {
     text-align: left;
     margin: 0;
   }
+
   .social-media {
     margin: 0;
     justify-content: space-between;
   }
+
   .article-par {
     flex-direction: row-reverse;
   }
+
   .person-par {
     text-align: right;
   }
+
   .description-par {
     text-align: right;
   }
+
   .social-media-par {
     margin: 0;
     justify-content: space-between;
   }
 
-  }
+}
