@@ -5,12 +5,12 @@
     padding: 30px 30px;
   }
   .equipo {
-    font-family: var($brand-font2);
+    font-family: $brand-font2;
     font-size: 24px;
     font-weight: 500;
     line-height: 1.88;
     text-align: center;
-    color: var($brand-color);
+    color: $brand-color;
   }
   .h2-equipo {
     text-transform: uppercase;
@@ -18,12 +18,12 @@
   .box {
     margin: 15px 0 0;
     opacity: 0.67;
-    font-family: var($brand-font);
+    font-family: $brand-font;
     font-size: 16px;
   
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: var($paragraph-color);
+    color: $paragraph-color;
   }
   
