@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fuente Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Fuentes Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Fuente Fontawesome -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <!-- Fuentes Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
-    rel="stylesheet">
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
 
-  <link rel="stylesheet" href="./styles/reset.css" />
-  <link rel="stylesheet" href="./styles/main.css" />
+    <title>Las 5 fantásticas</title>
+  </head>
 
-  <title>Las 5 fantásticas</title>
-</head>
-
-<body>
-  <!--Parte danielad-->
- <include src=".partials/header.html"></include>
-  <!-- PARTE DANIELAD E IRENE -->
- <include src=".partials/hero.html"></include>
-    <!--Parte jenny-->
-    <include src=".partials/equipo.html"></include>
+  <body>
+    <header>
+      <!--Parte danielad-->
+      <include src="./partials/header.html"></include>
+    </header>
+    <main>
+      <!-- PARTE DANIELAD E IRENE -->
+      <include src="./partials/hero.html"></include>
+      <!--Parte jenny-->
+      <include src="./partials/equipo.html"></include>
 
       <!--SECCION DANIELA S-->
 
-     <include src="./partials/fortalezas.html"></include>
+      <include src="./partials/fortalezas.html"></include>
 
-    <!-- SECCION QUIENES SOMOS - MONI -->
-    <include src="./partials/who-we-are.html"></include>
-
-
-  </main>
-<!-- SECCION IRENE -->
-  <include src="./partials/footer.html"></include>
-</body>
-
+      <!-- SECCION QUIENES SOMOS - MONI -->
+      <include src="./partials/who-we-are.html"></include>
+    </main>
+    <!-- SECCION IRENE -->
+    <include src="./partials/footer.html"></include>
+  </body>
 </html>
