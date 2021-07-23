@@ -21,42 +21,8 @@
 
 
 
-/* añadido Daniela Salazar */
-.caracter {
-  box-sizing: border-box;
-  background-color: rgba(184, 184, 185, 0.2);
-  width: 100%;
-  line-height: 1.5;
-  text-align: center;
-  padding: 0 15px;
-  padding-bottom: 30px;
-}
 
-.h3 {
-  color: var($brand-color);
-  font-family: var($brand-font2);
-  font-size: 22px;
-  margin-top: 30px;
-  padding-bottom: 10px;
-  text-transform: capitalize;
-  font-weight: bold;
-}
 
-.rectangulo-pequeño {
-  background-color: white;
-  width: 30px;
-  height: 30px;
-  margin: auto;
-  transform: translate(0, -50%) rotate(45deg);
-}
-.description-caracter {
-  color: #54585a;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: var($brand-font);
-  text-align: center;
-  margin: 0px 10px 15px 10px;
-}
 
 /* ___________________ */
 /* QUIENES SOMOS*/
