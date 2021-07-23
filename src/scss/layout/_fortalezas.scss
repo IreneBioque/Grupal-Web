@@ -9,8 +9,8 @@
   }
   
   .h3 {
-    color: var($brand-color);
-    font-family: var($brand-font2);
+    color: $brand-color;
+    font-family: $brand-font2;
     font-size: 22px;
     margin-top: 30px;
     padding-bottom: 10px;
@@ -29,7 +29,7 @@
     color: #54585a;
     font-size: 16px;
     line-height: 24px;
-    font-family: var($brand-font);
+    font-family: $brand-font;
     text-align: center;
     margin: 0px 10px 15px 10px;
   }
