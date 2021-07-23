@@ -17,12 +17,7 @@ Gris claro: #b8b8b9
 Gris de fondo: #f1f1f1
 */
 
-:root {
-  --brand-color: #099d8d;
-  --brand-font: "Open Sans", sans-serif;
-  --brand-font2: "Rubik", sans-serif;
-  --paragraph-color: #54585a;
-}
+
 
 body {
   background-color: white;
@@ -53,7 +48,7 @@ body {
 }
 
 .name {
-  font-family: var(--brand-font2);
+  font-family: var($brand-font2);
   color: white;
   text-transform: uppercase;
   width: 100%;
@@ -77,7 +72,7 @@ body {
 .list {
   list-style-type: none;
   display: inline-block;
-  font-family: var(--brand-font2);
+  font-family: var($brand-font2);
   font-size: 15px;
   text-transform: uppercase;
   color: white;
@@ -123,7 +118,7 @@ body {
 }
 .lema {
   background-color: white;
-  font-family: var(--brand-font);
+  font-family: var($brand-font);
   font-size: 20px;
   text-align: left;
   margin-left: 15px;
@@ -143,12 +138,12 @@ body {
   padding: 30px 30px;
 }
 .equipo {
-  font-family: var(--brand-font2);
+  font-family: var($brand-font2);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
   text-align: center;
-  color: var(--brand-color);
+  color: var($brand-color);
 }
 .h2-equipo {
   text-transform: uppercase;
@@ -156,13 +151,13 @@ body {
 .box {
   margin: 15px 0 0;
   opacity: 0.67;
-  font-family: var(--brand-font);
+  font-family: var($brand-font);
   font-size: 16px;
 
   line-height: 1.5;
   letter-spacing: normal;
   text-align: center;
-  color: var(--paragraph-color);
+  color: var($paragraph-color);
 }
 
 /* añadido Daniela Salazar */
@@ -177,8 +172,8 @@ body {
 }
 
 .h3 {
-  color: var(--brand-color);
-  font-family: var(--brand-font2);
+  color: var($brand-color);
+  font-family: var($brand-font2);
   font-size: 22px;
   margin-top: 30px;
   padding-bottom: 10px;
@@ -197,7 +192,7 @@ body {
   color: #54585a;
   font-size: 16px;
   line-height: 24px;
-  font-family: var(--brand-font);
+  font-family: var($brand-font);
   text-align: center;
   margin: 0px 10px 15px 10px;
 }
@@ -210,8 +205,8 @@ body {
 }
 
 .section-who-we-are h2 {
-  color: var(--brand-color);
-  font-family: var(--brand-font2);
+  color: var($brand-color);
+  font-family: var($brand-font2);
   font-size: 24px;
   line-height: 45px;
   text-transform: uppercase;
@@ -234,7 +229,7 @@ body {
 .person {
   color: black;
   font-size: 20px;
-  font-family: var(--brand-font);
+  font-family: var($brand-font);
   line-height: 45px;
   text-align: center;
   margin-top: 15px;
@@ -244,7 +239,7 @@ body {
   color: #54585a;
   font-size: 16px;
   line-height: 24px;
-  font-family: var(--brand-font);
+  font-family: var($brand-font);
   text-align: center;
   margin: 0px 10px 15px 10px;
 }
@@ -256,7 +251,7 @@ body {
   justify-content: space-evenly;
 }
 .media {
-  color: var(--brand-color);
+  color: var($brand-color);
   font-size: 16px;
   line-height: 30px;
 }
@@ -295,7 +290,7 @@ body {
   color: #54585a;
   padding-bottom: 30px;
   padding-top: 20px;
-  font-family: var(--brand-font);
+  font-family: var($brand-font);
   font-weight: 600;
   font-size: 14px;
   line-height: 1.3;
