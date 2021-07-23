@@ -19,7 +19,7 @@
   }
   
   .name {
-    font-family: var($brand-font2);
+    font-family: $brand-font2;
     color: white;
     text-transform: uppercase;
     width: 100%;
@@ -43,7 +43,7 @@
   .list {
     list-style-type: none;
     display: inline-block;
-    font-family: var($brand-font2);
+    font-family: $brand-font2;
     font-size: 15px;
     text-transform: uppercase;
     color: white;
