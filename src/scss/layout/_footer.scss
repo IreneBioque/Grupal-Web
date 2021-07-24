@@ -5,11 +5,12 @@
   justify-content: center;
   align-items: center;
   border-top: solid 1px #b8b8b9;
+
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
     height: 170px;
-    width: 100%;
+    box-sizing: border-box;
   }
 }
 .copy {
@@ -47,10 +48,10 @@
   text-align: center;
   @media all and (min-width: 768px) {
     height: 90px;
-
     margin-bottom: 56px;
-    text-align: end;
+    text-align: left;
     line-height: 2;
+    // margin-right: 45px;
   }
 }
 .logo {
