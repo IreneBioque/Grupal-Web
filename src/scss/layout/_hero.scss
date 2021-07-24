@@ -23,4 +23,13 @@
     position: relative;
     top: 390px;
     z-index: 2;
+    @media all and (min-width:768px) {
+      width: 336px;
+      height: 80px;
+      margin-left: 46px;
+      padding: 15px 80px 15px 30px;
+      top: 340px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
   }

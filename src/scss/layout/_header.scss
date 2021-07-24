@@ -16,6 +16,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media all and (min-width: 768px) {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
   }
   
   .name {
@@ -27,6 +33,11 @@
     line-height: 60px;
     text-align: center;
     background-color: hsla(174, 83%, 46%, 0.9);
+    @media all and (min-width: 768px){
+      text-align: left;
+      padding-left: 45px;
+      width: 40%;
+    }
   }
   
   .menu-top {
@@ -38,6 +49,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    @media all and (min-width: 768px) {
+      justify-content: flex-end;
+      padding-right: 45px;
+      width: 60%;
+    }
   }
   
   .list {
@@ -72,4 +88,9 @@
     color: white;
   }
   
-  /*.link:visited y ponerle el color que queramos si se decide*/
+  @media all and (min-width: 768px) {
+    .head-tablet {
+      height: 60px;
+      background-color: hsla(174, 83%, 46%, 0.9);
+    }
+  }
