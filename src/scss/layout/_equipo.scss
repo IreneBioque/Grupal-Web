@@ -1,29 +1,27 @@
-.caja {
-    box-sizing: border-box;
-    width: 100%;
-    height: 399px;
-    padding: 30px 30px;
-  }
-  .equipo {
-    font-family: $brand-font2;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.88;
-    text-align: center;
-    color: $brand-color;
-  }
-  .h2-equipo {
-    text-transform: uppercase;
-  }
-  .box {
-    margin: 15px 0 0;
-    opacity: 0.67;
-    font-family: $brand-font;
-    font-size: 16px;
-  
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: $paragraph-color;
-  }
-  
+.main--equipo__caja {
+  box-sizing: border-box;
+  width: 100%;
+  height: 280px;
+  padding: 30px 30px;
+}
+.main--equipo__equipo {
+  font-family: $brand-font2;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.88;
+  text-align: center;
+  color: $brand-color;
+}
+.main--equipo__h2-equipo {
+  text-transform: uppercase;
+}
+.main--equipo__box {
+  margin: 15px 0 0;
+  opacity: 0.67;
+  font-family: $brand-font;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: $paragraph-color;
+}
