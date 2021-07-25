@@ -33,3 +33,20 @@
   text-align: center;
   margin: 0px 10px 15px 10px;
 }
+
+@media all and (min-width: 768px) {
+  .caracter {
+    display: flex;
+  }
+
+  .fortalezas,
+  .debilidades {
+    width: 50%;
+    text-align: center;
+  }
+  .rectangulo-pequeño {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+}
