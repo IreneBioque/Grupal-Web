@@ -1,6 +1,9 @@
 body {
   background-color: white;
 }
+.main {
+  border-bottom: solid 1px #b8b8b9;
+}
 .container-margin {
   margin: 0 15px;
   @media all and (min-width: 768px) {
