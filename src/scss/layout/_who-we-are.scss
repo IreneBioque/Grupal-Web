@@ -1,16 +1,18 @@
 .section-who-we-are {
   margin-top: 30px;
   margin-bottom: 45px;
+
+  & h2 {
+    color: $brand-color;
+    font-family: $brand-font2;
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
 
-.section-who-we-are h2 {
-  color: $brand-color;
-  font-family: $brand-font2;
-  font-size: 24px;
-  line-height: 45px;
-  text-transform: uppercase;
-  text-align: center;
-}
+.section-who-we-are h2 
 
 .team-member {
   margin-bottom: 60px;
