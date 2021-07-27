@@ -10,22 +10,26 @@
     text-transform: uppercase;
     text-align: center;
   }
+
+  &.team-member {
+    margin-bottom: 60px;
+
+    &.photo-person {
+      display: block;
+      margin: 30px auto 0 auto;
+      height: 190px;
+      width: 190px;
+      border-radius: 10px;
+      border: solid 5px rgba(0, 0, 0, 0.08);
+    }
+  }
 }
 
-.section-who-we-are h2 
 
-.team-member {
-  margin-bottom: 60px;
-}
 
-.photo-person {
-  display: block;
-  margin: 30px auto 0 auto;
-  height: 190px;
-  width: 190px;
-  border-radius: 10px;
-  border: solid 5px rgba(0, 0, 0, 0.08);
-}
+
+
+
 
 .person {
   color: black;
