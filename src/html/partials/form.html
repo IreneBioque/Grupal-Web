@@ -1,6 +1,6 @@
 <section class="team">
   <div class="container-margin">
-    <section class="main--equipo__caja">
+    <section class="main--equipo__caja contact">
       <article>
         <h2 class="main--equipo__h2">Contacto</h2>
         <p class="main--equipo__box">
@@ -22,48 +22,49 @@
 </section>
 
 <form class="form" action="#" method="post">
-  <label class="form__label">
+  <label for="fullname" class="form__label">
     Nombre completo <span class="form__span">* </span>
-    <input
-      class="form__label--input"
-      placeholder="Nombre..."
-      type="text"
-      id="fullname"
-      name="fullname"
-      required
-    />
   </label>
-  <label class="form__label">
+  <input
+    class="form__input"
+    placeholder="Nombre..."
+    type="text"
+    id="fullname"
+    name="fullname"
+    required
+  />
+  <label for="email" class="form__label">
     Email <span class="form__span">* </span>
-    <input
-      class="form__label--input"
-      placeholder="Email..."
-      type="email"
-      id="Email"
-      name="Email"
-      required
-    />
   </label>
-  <label class="form__label">
-    Teléfono
-    <input
-      class="form__label--input"
-      placeholder="Ej.123456789"
-      type="tel"
-      id="Teléfono"
-      name="Teléfono"
-    />
-  </label>
-  <label class="form__label">
+  <input
+    class="form__input"
+    placeholder="Email..."
+    type="email"
+    id="email"
+    name="Email"
+    required
+  />
+  <label for="telefono" class="form__label"> Teléfono </label>
+
+  <input
+    class="form__input"
+    placeholder="Ej.123456789"
+    type="tel"
+    id="telefono"
+    name="Teléfono"
+  />
+  <label for="mensaje" class="form__label">
     Mensaje <span class="form__span">* </span>
-    <textarea
-      placeholder="¿Qué necesitas?"
-      id="Mensaje"
-      rows="8"
-      cols="80"
-      name="Mensaje"
-      required
-    ></textarea>
   </label>
+
+  <textarea
+    placeholder="¿Qué necesitas?"
+    id="mensaje"
+    rows="10"
+    cols="10"
+    name="Mensaje"
+    required
+  >
+  </textarea>
   <input class="form__button" type="submit" value="enviar" />
 </form>
