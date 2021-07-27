@@ -1,10 +1,15 @@
 .main--equipo__caja {
   box-sizing: border-box;
   width: 100%;
-  height: 390px;
+  height: 420px;
   padding: 30px 30px;
+  @media screen and (min-width: 768px){
+  height: 303px;
+  }
+  @media screen and (min-width: 1200px){
+    height: 357px;
+  }
 }
-
 .main--equipo__h2 {
   font-family: $brand-font2;
   font-size: 24px;
