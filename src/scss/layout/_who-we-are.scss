@@ -11,10 +11,10 @@
     text-align: center;
   }
 
-  &.team-member {
+  .team-member {
     margin-bottom: 60px;
 
-    &.photo-person {
+    .photo-person {
       display: block;
       margin: 30px auto 0 auto;
       height: 190px;
@@ -23,13 +23,8 @@
       border: solid 5px rgba(0, 0, 0, 0.08);
     }
   }
+  
 }
-
-
-
-
-
-
 
 .person {
   color: black;
