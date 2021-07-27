@@ -12,7 +12,7 @@
 
         <p class="small">
           <small
-            >Todos los campos marcados con <span class="span">* </span>son
+            >Todos los campos marcados con <span class="form__span">* </span>son
             obligatorios
           </small>
         </p>
@@ -21,22 +21,49 @@
   </div>
 </section>
 
-<form action="#" method="post">
-  <label>
-    Nombre completo <span class="span">* </span>
-  <input placeholder="Nombre..." type="text" id="fullname" name="fullname" required>
-</label>
-<label>
-  Email <span class="span">* </span>
-<input placeholder="Email..." type="email" id="Email" name="Email" required>
-</label>
-<label>
-  Teléfono 
-<input placeholder="Ej.123456789" type="tel" id="Teléfono" name="Teléfono">
-</label>
-<label>
-  Mensaje 
-<textarea placeholder="¿Qué necesitas?" id="Mensaje" rows="8"cols="80" name="Mensaje"></textarea>
-</label>
-<input type="submit" value="enviar">
+<form class="form" action="#" method="post">
+  <label class="form__label">
+    Nombre completo <span class="form__span">* </span>
+    <input
+      class="form__label--input"
+      placeholder="Nombre..."
+      type="text"
+      id="fullname"
+      name="fullname"
+      required
+    />
+  </label>
+  <label class="form__label">
+    Email <span class="form__span">* </span>
+    <input
+      class="form__label--input"
+      placeholder="Email..."
+      type="email"
+      id="Email"
+      name="Email"
+      required
+    />
+  </label>
+  <label class="form__label">
+    Teléfono
+    <input
+      class="form__label--input"
+      placeholder="Ej.123456789"
+      type="tel"
+      id="Teléfono"
+      name="Teléfono"
+    />
+  </label>
+  <label class="form__label">
+    Mensaje <span class="form__span">* </span>
+    <textarea
+      placeholder="¿Qué necesitas?"
+      id="Mensaje"
+      rows="8"
+      cols="80"
+      name="Mensaje"
+      required
+    ></textarea>
+  </label>
+  <input class="form__button" type="submit" value="enviar" />
 </form>

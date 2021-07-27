@@ -8,6 +8,18 @@
   padding-top: 50px;
 }
 
-.span {
+.form__span {
   color: #14d9c4;
+}
+
+.form {
+  width: 320px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.form__label--input {
+  grid-row: span 3;
 }
