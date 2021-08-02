@@ -62,11 +62,12 @@
     height: 45px;
     margin: 20px 0 60px;
     @media all and (min-width: 768px) {
-      width: 50%;
+      width: 206px;
       margin-left: auto;
     }
     @media all and (min-width: 1200px) {
-      grid-column: 2 / 3;
+      grid-column: span 2;
+      width: 278px;
     }
   }
 }
