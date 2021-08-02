@@ -21,6 +21,16 @@
       width: 190px;
       border-radius: 10px;
       border: solid 5px rgba(0, 0, 0, 0.08);
+
+      @media (min-width: 768px) {
+        height: 215px;
+        width: 215px;
+      }
+      @media (min-width: 1200px) {
+          height: 290px;
+          width: 290px;
+        
+      }
     }
   }
   
@@ -67,11 +77,6 @@
     text-align: left;
   }
 
-  .photo-person {
-    height: 215px;
-    width: 215px;
-  }
-
   .article__person {
     width: 100%;
     display: flex;
@@ -114,9 +119,3 @@
 
 }
 
-@media all and (min-width: 1200px) {
-  .photo-person {
-    height: 290px;
-    width: 290px;
-  }
-}
