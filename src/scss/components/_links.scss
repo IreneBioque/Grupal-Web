@@ -1,0 +1,19 @@
+.name-link,
+.name-link:hover,
+.name-link:focus,
+.name-link:active {
+  text-decoration: none;
+  font-family: $brand-font2;
+  color: white;
+  text-transform: uppercase;
+}
+.link-bottom {
+  text-decoration: none;
+}
+.link-bottom,
+.link-bottom:hover,
+.link-bottom:focus,
+.link-bottom:active {
+  text-decoration: none;
+  color: #54585a;
+}
