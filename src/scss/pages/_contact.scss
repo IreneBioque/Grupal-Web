@@ -21,26 +21,36 @@
   margin: auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(5, 45px);
+  @media all and (min-width: 768px) {
+    width: 442px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    grid-template-columns: 1fr 1fr;
+  }
 
   &__label {
-    padding: 25px 0;
+    padding: 15px 0 5px;
     font-size: 14px;
     font-family: $brand-font;
     color: $paragraph-color;
+    @media all and (min-width: 1200px) {
+      grid-column: span 2;
+    }
   }
   &__input {
     font-family: $brand-font;
     font-size: 16px;
     color: $paragraph-color;
+    padding: 10px;
     border: solid 1px #b8b8b9;
     ::placeholder {
       font-size: 14px;
       color: #b8b8b9;
     }
-    // @media all and (min-width: 1200px) {
-    //   grid-column: span 2;
-    // }
+    @media all and (min-width: 1200px) {
+      grid-column: span 2;
+    }
   }
   &__button {
     background-color: $brand-color;
@@ -54,19 +64,17 @@
       width: 50%;
       margin-left: auto;
     }
-  }
-  @media all and (min-width: 768px) {
-    width: 442px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 601px;
-    // grid-template-columns: 1fr 1fr;
-    // grid-template-areas: "nombre nombre" "nombre nombre" " email telef" "email telefono" "mensaje mensaje" "mensaje mensaje" "nada boton";
+    @media all and (min-width: 1200px) {
+      grid-column: 2 / 3;
+    }
   }
 }
 #mensaje {
   margin: 0;
   border: solid 1px #b8b8b9;
+  @media all and (min-width: 1200px) {
+    grid-column: span 2;
+  }
 }
 // @media all and (min-width: 1200px) {
 //   #telefono {
