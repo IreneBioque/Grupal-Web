@@ -29,6 +29,11 @@
   line-height: 60px;
   text-align: center;
   background-color: hsla(174, 83%, 46%, 0.7);
+  // animation-duration: 3s;
+  // animation-name: intro;
+  // animation-iteration-count: 1;
+  // animation-timing-function: linear;
+
   @media all and (min-width: 768px) {
     text-align: left;
     padding-left: 45px;
@@ -37,6 +42,7 @@
   @media all and (min-width: 1200px) {
     padding-left: 142px;
   }
+  
 }
 
 .menu-top {
@@ -97,3 +103,18 @@
   text-decoration: none;
   color: white;
 }
+
+
+// @keyframes intro {
+//   from {
+//     transform: scale(10) rotate(-360deg); 
+//     opacity: 0;
+//     background-color: whitesmoke;
+//     color: white;
+//   }
+//   to {
+//     transform: scale(1);
+//     opacity: 1;
+//   }
+
+// }
