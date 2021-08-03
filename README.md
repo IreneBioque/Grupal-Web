@@ -121,7 +121,7 @@ And then:
 
 Este proyecto está bajo la Licencia MIT License mira el archivo [LICENSE](LICENSE) para más detalles
 
-This project is licensed under the MIT License MIT License see the [LICENSE](LICENSE) file for more details.
+This project is licensed under the License MIT License see the [LICENSE](LICENSE) file for more details.
 
 ## Gracias 🎁 / Thanks 🎁
 
