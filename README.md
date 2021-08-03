@@ -104,6 +104,7 @@ And then:
 - HTML
 - SASS
 - GULP
+- GIT
 
 ## Autores ✒️ / Authors ✒️
 
