@@ -1,4 +1,4 @@
-# Proyecto Módulo 1 THE GIRLS
+# THE GIRLS WEB
 
 Este proyecto consiste en una página web y un formulario para darnos a conocer adaptada a distintos dispositivos.
 
